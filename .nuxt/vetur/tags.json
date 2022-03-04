@@ -86,15 +86,6 @@
   "CheckoutVsfShippingProvider": {
     "description": "Auto imported from components/Checkout/VsfShippingProvider.vue"
   },
-  "CmsBanner": {
-    "description": "Auto imported from components/cms/Banner.vue"
-  },
-  "CmsPage": {
-    "description": "Auto imported from components/cms/Page.vue"
-  },
-  "CmsRenderContent": {
-    "description": "Auto imported from components/cms/RenderContent.vue"
-  },
   "MyAccountBillingAddressForm": {
     "description": "Auto imported from components/MyAccount/BillingAddressForm.vue"
   },

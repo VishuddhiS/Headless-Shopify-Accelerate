@@ -2,15 +2,13 @@
   {
     "name": "home___ar",
     "path": "/ar",
-    "component": "D:\\Headless Shopify\\accelerate\\pages\\Home.vue",
-    "_name": "_984b87fe"
+    "component": "D:\\Headless Shopify\\accelerate\\pages\\Home.vue"
   },
   {
     "name": "Category___en",
     "path": "/Category",
     "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\Category.vue",
-    "chunkName": "pages/Category",
-    "_name": "_e6102adc"
+    "chunkName": "pages/Category"
   },
   {
     "name": "checkout___en",
@@ -20,29 +18,24 @@
       {
         "path": "billing",
         "name": "billing___en",
-        "component": "D:\\Headless Shopify\\accelerate\\pages\\Checkout\\Billing.vue",
-        "_name": "_3363b232"
+        "component": "D:\\Headless Shopify\\accelerate\\pages\\Checkout\\Billing.vue"
       },
       {
         "path": "payment",
         "name": "payment___en",
-        "component": "D:\\Headless Shopify\\accelerate\\pages\\Checkout\\Payment.vue",
-        "_name": "_f6050e1c"
+        "component": "D:\\Headless Shopify\\accelerate\\pages\\Checkout\\Payment.vue"
       },
       {
         "path": "shipping",
         "name": "shipping___en",
-        "component": "D:\\Headless Shopify\\accelerate\\pages\\Checkout\\Shipping.vue",
-        "_name": "_2330ec72"
+        "component": "D:\\Headless Shopify\\accelerate\\pages\\Checkout\\Shipping.vue"
       },
       {
         "path": "thank-you",
         "name": "thank-you___en",
-        "component": "D:\\Headless Shopify\\accelerate\\pages\\Checkout\\ThankYou.vue",
-        "_name": "_0cbeb819"
+        "component": "D:\\Headless Shopify\\accelerate\\pages\\Checkout\\ThankYou.vue"
       }
-    ],
-    "_name": "_5fba1830"
+    ]
   },
   {
     "name": "Checkout___en",
@@ -54,46 +47,39 @@
         "name": "Checkout-Billing___en",
         "path": "Billing",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\Checkout\\\\Billing.vue",
-        "chunkName": "pages/Checkout/Billing",
-        "_name": "_413dd1f1"
+        "chunkName": "pages/Checkout/Billing"
       },
       {
         "name": "Checkout-Payment___en",
         "path": "Payment",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\Checkout\\\\Payment.vue",
-        "chunkName": "pages/Checkout/Payment",
-        "_name": "_4025b808"
+        "chunkName": "pages/Checkout/Payment"
       },
       {
         "name": "Checkout-Shipping___en",
         "path": "Shipping",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\Checkout\\\\Shipping.vue",
-        "chunkName": "pages/Checkout/Shipping",
-        "_name": "_2636a2a8"
+        "chunkName": "pages/Checkout/Shipping"
       },
       {
         "name": "Checkout-ThankYou___en",
         "path": "ThankYou",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\Checkout\\\\ThankYou.vue",
-        "chunkName": "pages/Checkout/ThankYou",
-        "_name": "_0fc46e4f"
+        "chunkName": "pages/Checkout/ThankYou"
       }
-    ],
-    "_name": "_6a81d24c"
+    ]
   },
   {
     "name": "ContactUs___en",
     "path": "/ContactUs",
     "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\ContactUs.vue",
-    "chunkName": "pages/ContactUs",
-    "_name": "_288ecffa"
+    "chunkName": "pages/ContactUs"
   },
   {
     "name": "Home___en",
     "path": "/Home",
     "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\Home.vue",
-    "chunkName": "pages/Home",
-    "_name": "_10d1a7f3"
+    "chunkName": "pages/Home"
   },
   {
     "name": "MyAccount___en",
@@ -105,94 +91,80 @@
         "name": "MyAccount-AdressBook___en",
         "path": "AdressBook",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\MyAccount\\\\AdressBook.vue",
-        "chunkName": "pages/MyAccount/AdressBook",
-        "_name": "_f3a444c8"
+        "chunkName": "pages/MyAccount/AdressBook"
       },
       {
         "name": "MyAccount-BillingDetails___en",
         "path": "BillingDetails",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\MyAccount\\\\BillingDetails.vue",
-        "chunkName": "pages/MyAccount/BillingDetails",
-        "_name": "_c7777838"
+        "chunkName": "pages/MyAccount/BillingDetails"
       },
       {
         "name": "MyAccount-LoyaltyCard___en",
         "path": "LoyaltyCard",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\MyAccount\\\\LoyaltyCard.vue",
-        "chunkName": "pages/MyAccount/LoyaltyCard",
-        "_name": "_438d48a9"
+        "chunkName": "pages/MyAccount/LoyaltyCard"
       },
       {
         "name": "MyAccount-MyNewsletter___en",
         "path": "MyNewsletter",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\MyAccount\\\\MyNewsletter.vue",
-        "chunkName": "pages/MyAccount/MyNewsletter",
-        "_name": "_ec0cbb3c"
+        "chunkName": "pages/MyAccount/MyNewsletter"
       },
       {
         "name": "MyAccount-MyProfile___en",
         "path": "MyProfile",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\MyAccount\\\\MyProfile.vue",
-        "chunkName": "pages/MyAccount/MyProfile",
-        "_name": "_21183c60"
+        "chunkName": "pages/MyAccount/MyProfile"
       },
       {
         "name": "MyAccount-MyReviews___en",
         "path": "MyReviews",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\MyAccount\\\\MyReviews.vue",
-        "chunkName": "pages/MyAccount/MyReviews",
-        "_name": "_36f6c342"
+        "chunkName": "pages/MyAccount/MyReviews"
       },
       {
         "name": "MyAccount-OrderHistory___en",
         "path": "OrderHistory",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\MyAccount\\\\OrderHistory.vue",
-        "chunkName": "pages/MyAccount/OrderHistory",
-        "_name": "_653ec3c3"
+        "chunkName": "pages/MyAccount/OrderHistory"
       },
       {
         "name": "MyAccount-ShippingDetails___en",
         "path": "ShippingDetails",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\MyAccount\\\\ShippingDetails.vue",
-        "chunkName": "pages/MyAccount/ShippingDetails",
-        "_name": "_c7c0bf32"
+        "chunkName": "pages/MyAccount/ShippingDetails"
       }
-    ],
-    "_name": "_6f83eb06"
+    ]
   },
   {
     "name": "Product___en",
     "path": "/Product",
     "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\Product.vue",
-    "chunkName": "pages/Product",
-    "_name": "_0dda168b"
+    "chunkName": "pages/Product"
   },
   {
     "name": "reset-password___en",
     "path": "/reset-password",
-    "component": "D:\\Headless Shopify\\accelerate\\pages\\ResetPassword.vue",
-    "_name": "_084069d8"
+    "component": "D:\\Headless Shopify\\accelerate\\pages\\ResetPassword.vue"
   },
   {
     "name": "ResetPassword___en",
     "path": "/ResetPassword",
     "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\ResetPassword.vue",
-    "chunkName": "pages/ResetPassword",
-    "_name": "_1e4363b4"
+    "chunkName": "pages/ResetPassword"
   },
   {
     "name": "TermsAndConditions___en",
     "path": "/TermsAndConditions",
     "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\TermsAndConditions.vue",
-    "chunkName": "pages/TermsAndConditions",
-    "_name": "_71b4c33c"
+    "chunkName": "pages/TermsAndConditions"
   },
   {
     "name": "Category___ar",
     "path": "/ar/Category",
     "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\Category.vue",
-    "chunkName": "pages/Category",
-    "_name": "_e6102adc"
+    "chunkName": "pages/Category"
   },
   {
     "name": "checkout___ar",
@@ -202,29 +174,24 @@
       {
         "path": "billing",
         "name": "billing___ar",
-        "component": "D:\\Headless Shopify\\accelerate\\pages\\Checkout\\Billing.vue",
-        "_name": "_3363b232"
+        "component": "D:\\Headless Shopify\\accelerate\\pages\\Checkout\\Billing.vue"
       },
       {
         "path": "payment",
         "name": "payment___ar",
-        "component": "D:\\Headless Shopify\\accelerate\\pages\\Checkout\\Payment.vue",
-        "_name": "_f6050e1c"
+        "component": "D:\\Headless Shopify\\accelerate\\pages\\Checkout\\Payment.vue"
       },
       {
         "path": "shipping",
         "name": "shipping___ar",
-        "component": "D:\\Headless Shopify\\accelerate\\pages\\Checkout\\Shipping.vue",
-        "_name": "_2330ec72"
+        "component": "D:\\Headless Shopify\\accelerate\\pages\\Checkout\\Shipping.vue"
       },
       {
         "path": "thank-you",
         "name": "thank-you___ar",
-        "component": "D:\\Headless Shopify\\accelerate\\pages\\Checkout\\ThankYou.vue",
-        "_name": "_0cbeb819"
+        "component": "D:\\Headless Shopify\\accelerate\\pages\\Checkout\\ThankYou.vue"
       }
-    ],
-    "_name": "_5fba1830"
+    ]
   },
   {
     "name": "Checkout___ar",
@@ -236,46 +203,39 @@
         "name": "Checkout-Billing___ar",
         "path": "Billing",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\Checkout\\\\Billing.vue",
-        "chunkName": "pages/Checkout/Billing",
-        "_name": "_413dd1f1"
+        "chunkName": "pages/Checkout/Billing"
       },
       {
         "name": "Checkout-Payment___ar",
         "path": "Payment",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\Checkout\\\\Payment.vue",
-        "chunkName": "pages/Checkout/Payment",
-        "_name": "_4025b808"
+        "chunkName": "pages/Checkout/Payment"
       },
       {
         "name": "Checkout-Shipping___ar",
         "path": "Shipping",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\Checkout\\\\Shipping.vue",
-        "chunkName": "pages/Checkout/Shipping",
-        "_name": "_2636a2a8"
+        "chunkName": "pages/Checkout/Shipping"
       },
       {
         "name": "Checkout-ThankYou___ar",
         "path": "ThankYou",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\Checkout\\\\ThankYou.vue",
-        "chunkName": "pages/Checkout/ThankYou",
-        "_name": "_0fc46e4f"
+        "chunkName": "pages/Checkout/ThankYou"
       }
-    ],
-    "_name": "_6a81d24c"
+    ]
   },
   {
     "name": "ContactUs___ar",
     "path": "/ar/ContactUs",
     "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\ContactUs.vue",
-    "chunkName": "pages/ContactUs",
-    "_name": "_288ecffa"
+    "chunkName": "pages/ContactUs"
   },
   {
     "name": "Home___ar",
     "path": "/ar/Home",
     "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\Home.vue",
-    "chunkName": "pages/Home",
-    "_name": "_10d1a7f3"
+    "chunkName": "pages/Home"
   },
   {
     "name": "MyAccount___ar",
@@ -287,128 +247,108 @@
         "name": "MyAccount-AdressBook___ar",
         "path": "AdressBook",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\MyAccount\\\\AdressBook.vue",
-        "chunkName": "pages/MyAccount/AdressBook",
-        "_name": "_f3a444c8"
+        "chunkName": "pages/MyAccount/AdressBook"
       },
       {
         "name": "MyAccount-BillingDetails___ar",
         "path": "BillingDetails",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\MyAccount\\\\BillingDetails.vue",
-        "chunkName": "pages/MyAccount/BillingDetails",
-        "_name": "_c7777838"
+        "chunkName": "pages/MyAccount/BillingDetails"
       },
       {
         "name": "MyAccount-LoyaltyCard___ar",
         "path": "LoyaltyCard",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\MyAccount\\\\LoyaltyCard.vue",
-        "chunkName": "pages/MyAccount/LoyaltyCard",
-        "_name": "_438d48a9"
+        "chunkName": "pages/MyAccount/LoyaltyCard"
       },
       {
         "name": "MyAccount-MyNewsletter___ar",
         "path": "MyNewsletter",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\MyAccount\\\\MyNewsletter.vue",
-        "chunkName": "pages/MyAccount/MyNewsletter",
-        "_name": "_ec0cbb3c"
+        "chunkName": "pages/MyAccount/MyNewsletter"
       },
       {
         "name": "MyAccount-MyProfile___ar",
         "path": "MyProfile",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\MyAccount\\\\MyProfile.vue",
-        "chunkName": "pages/MyAccount/MyProfile",
-        "_name": "_21183c60"
+        "chunkName": "pages/MyAccount/MyProfile"
       },
       {
         "name": "MyAccount-MyReviews___ar",
         "path": "MyReviews",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\MyAccount\\\\MyReviews.vue",
-        "chunkName": "pages/MyAccount/MyReviews",
-        "_name": "_36f6c342"
+        "chunkName": "pages/MyAccount/MyReviews"
       },
       {
         "name": "MyAccount-OrderHistory___ar",
         "path": "OrderHistory",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\MyAccount\\\\OrderHistory.vue",
-        "chunkName": "pages/MyAccount/OrderHistory",
-        "_name": "_653ec3c3"
+        "chunkName": "pages/MyAccount/OrderHistory"
       },
       {
         "name": "MyAccount-ShippingDetails___ar",
         "path": "ShippingDetails",
         "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\MyAccount\\\\ShippingDetails.vue",
-        "chunkName": "pages/MyAccount/ShippingDetails",
-        "_name": "_c7c0bf32"
+        "chunkName": "pages/MyAccount/ShippingDetails"
       }
-    ],
-    "_name": "_6f83eb06"
+    ]
   },
   {
     "name": "Product___ar",
     "path": "/ar/Product",
     "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\Product.vue",
-    "chunkName": "pages/Product",
-    "_name": "_0dda168b"
+    "chunkName": "pages/Product"
   },
   {
     "name": "reset-password___ar",
     "path": "/ar/reset-password",
-    "component": "D:\\Headless Shopify\\accelerate\\pages\\ResetPassword.vue",
-    "_name": "_084069d8"
+    "component": "D:\\Headless Shopify\\accelerate\\pages\\ResetPassword.vue"
   },
   {
     "name": "ResetPassword___ar",
     "path": "/ar/ResetPassword",
     "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\ResetPassword.vue",
-    "chunkName": "pages/ResetPassword",
-    "_name": "_1e4363b4"
+    "chunkName": "pages/ResetPassword"
   },
   {
     "name": "TermsAndConditions___ar",
     "path": "/ar/TermsAndConditions",
     "component": "D:\\\\Headless Shopify\\\\accelerate\\\\pages\\\\TermsAndConditions.vue",
-    "chunkName": "pages/TermsAndConditions",
-    "_name": "_71b4c33c"
+    "chunkName": "pages/TermsAndConditions"
   },
   {
     "name": "my-account___ar",
     "path": "/ar/my-account/:pageName?",
-    "component": "D:\\Headless Shopify\\accelerate\\pages\\MyAccount.vue",
-    "_name": "_6f55cf2f"
+    "component": "D:\\Headless Shopify\\accelerate\\pages\\MyAccount.vue"
   },
   {
     "name": "product___ar",
     "path": "/ar/p/:id/:slug",
-    "component": "D:\\Headless Shopify\\accelerate\\pages\\Product.vue",
-    "_name": "_711f5fbd"
+    "component": "D:\\Headless Shopify\\accelerate\\pages\\Product.vue"
   },
   {
     "name": "category___ar",
     "path": "/ar/c/:slug_1/:slug_2?/:slug_3?/:slug_4?/:slug_5?",
-    "component": "D:\\Headless Shopify\\accelerate\\pages\\Category.vue",
-    "_name": "_db4870c0"
+    "component": "D:\\Headless Shopify\\accelerate\\pages\\Category.vue"
   },
   {
     "name": "my-account___en",
     "path": "/my-account/:pageName?",
-    "component": "D:\\Headless Shopify\\accelerate\\pages\\MyAccount.vue",
-    "_name": "_6f55cf2f"
+    "component": "D:\\Headless Shopify\\accelerate\\pages\\MyAccount.vue"
   },
   {
     "name": "product___en",
     "path": "/p/:id/:slug",
-    "component": "D:\\Headless Shopify\\accelerate\\pages\\Product.vue",
-    "_name": "_711f5fbd"
+    "component": "D:\\Headless Shopify\\accelerate\\pages\\Product.vue"
   },
   {
     "name": "category___en",
     "path": "/c/:slug_1/:slug_2?/:slug_3?/:slug_4?/:slug_5?",
-    "component": "D:\\Headless Shopify\\accelerate\\pages\\Category.vue",
-    "_name": "_db4870c0"
+    "component": "D:\\Headless Shopify\\accelerate\\pages\\Category.vue"
   },
   {
     "name": "home___en",
     "path": "/",
-    "component": "D:\\Headless Shopify\\accelerate\\pages\\Home.vue",
-    "_name": "_984b87fe"
+    "component": "D:\\Headless Shopify\\accelerate\\pages\\Home.vue"
   }
 ]
