@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+/* Update default Variables */
+#__nuxt {
+  --c-primary: #d32f2f;
+  --font-family--primary: "PT Sans", sans-serif;
+  --font-family--secondary: "PT Sans", sans-serif;
+  --c-text: #231f20;
+  --font-size--base: 14px;
+  --navigation-background: #000;
+  --header-navigation-item-color: #fff;
+  --header-navigation-item-padding: 14px 12px;
+  --header-navigation-item-font-weight: 900;
+  --header-navigation-item-font-size: 15px;
+  --c-secondary: #000;
+}
+
+#layout {
+  max-width: 100% !important;
+}
+/* TopBar */
+.sf-top-bar {
+  background: #fff;
+  border-bottom: 1px solid #edeef2;
+}
+
+.sf-top-bar__container,
+.sf-header__header {
+  max-width: 100%;
+  padding: 0 2.5rem;
+}
+
+.sf-header__header {
+  padding: 1.12rem 2.5rem;
+}
+
+.sf-header-navigation-item__item--desktop > *:not(.sf-mega-menu):focus {
+  --header-navigation-item-color: #fff;
+}
+
+input:focus-visible {
+  outline: 0;
+}

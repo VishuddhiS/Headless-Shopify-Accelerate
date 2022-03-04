@@ -1,0 +1,110 @@
+{
+  "AppFooter": {
+    "description": "Auto imported from components/AppFooter.vue"
+  },
+  "AppHeader": {
+    "description": "Auto imported from components/AppHeader.vue"
+  },
+  "BottomNavigation": {
+    "description": "Auto imported from components/BottomNavigation.vue"
+  },
+  "CartSidebar": {
+    "description": "Auto imported from components/CartSidebar.vue"
+  },
+  "CategoryPageHeader": {
+    "description": "Auto imported from components/CategoryPageHeader.vue"
+  },
+  "FeaturedProduct": {
+    "description": "Auto imported from components/FeaturedProduct.vue"
+  },
+  "FiltersSidebar": {
+    "description": "Auto imported from components/FiltersSidebar.vue"
+  },
+  "HeaderNavigation": {
+    "description": "Auto imported from components/HeaderNavigation.vue"
+  },
+  "InstagramFeed": {
+    "description": "Auto imported from components/InstagramFeed.vue"
+  },
+  "LocaleSelector": {
+    "description": "Auto imported from components/LocaleSelector.vue"
+  },
+  "LocaleSelectorBase": {
+    "description": "Auto imported from components/LocaleSelector_base.vue"
+  },
+  "LoginModal": {
+    "description": "Auto imported from components/LoginModal.vue"
+  },
+  "MobileStoreBanner": {
+    "description": "Auto imported from components/MobileStoreBanner.vue"
+  },
+  "NewsletterModal": {
+    "description": "Auto imported from components/NewsletterModal.vue"
+  },
+  "Notification": {
+    "description": "Auto imported from components/Notification.vue"
+  },
+  "RelatedProducts": {
+    "description": "Auto imported from components/RelatedProducts.vue"
+  },
+  "RelatedProducts1": {
+    "description": "Auto imported from components/RelatedProducts1.vue"
+  },
+  "SearchResults": {
+    "description": "Auto imported from components/SearchResults.vue"
+  },
+  "Tab": {
+    "description": "Auto imported from components/Tab.vue"
+  },
+  "Tabs": {
+    "description": "Auto imported from components/Tabs.vue"
+  },
+  "TopBar": {
+    "description": "Auto imported from components/TopBar.vue"
+  },
+  "UserBillingAddress": {
+    "description": "Auto imported from components/UserBillingAddress.vue"
+  },
+  "UserShippingAddress": {
+    "description": "Auto imported from components/UserShippingAddress.vue"
+  },
+  "WishlistSidebar": {
+    "description": "Auto imported from components/WishlistSidebar.vue"
+  },
+  "CheckoutCartPreview": {
+    "description": "Auto imported from components/Checkout/CartPreview.vue"
+  },
+  "CheckoutUserBillingAddresses": {
+    "description": "Auto imported from components/Checkout/UserBillingAddresses.vue"
+  },
+  "CheckoutUserShippingAddresses": {
+    "description": "Auto imported from components/Checkout/UserShippingAddresses.vue"
+  },
+  "CheckoutVsfPaymentProvider": {
+    "description": "Auto imported from components/Checkout/VsfPaymentProvider.vue"
+  },
+  "CheckoutVsfShippingProvider": {
+    "description": "Auto imported from components/Checkout/VsfShippingProvider.vue"
+  },
+  "CmsBanner": {
+    "description": "Auto imported from components/cms/Banner.vue"
+  },
+  "CmsPage": {
+    "description": "Auto imported from components/cms/Page.vue"
+  },
+  "CmsRenderContent": {
+    "description": "Auto imported from components/cms/RenderContent.vue"
+  },
+  "MyAccountBillingAddressForm": {
+    "description": "Auto imported from components/MyAccount/BillingAddressForm.vue"
+  },
+  "MyAccountPasswordResetForm": {
+    "description": "Auto imported from components/MyAccount/PasswordResetForm.vue"
+  },
+  "MyAccountProfileUpdateForm": {
+    "description": "Auto imported from components/MyAccount/ProfileUpdateForm.vue"
+  },
+  "MyAccountShippingAddressForm": {
+    "description": "Auto imported from components/MyAccount/ShippingAddressForm.vue"
+  }
+}
