@@ -1,4 +1,4 @@
-# Vue Storefron Shopify Template
+# Vue Storefront Shopify Template
 
 Vue Storefront 2 template for Shopify.
 
@@ -13,7 +13,7 @@ SHOPIFY_DOMAIN=<SHOPIFY_DOMAIN> # example: vsf-next-pwa.myshopify.com
 
 2. Run the project
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 
