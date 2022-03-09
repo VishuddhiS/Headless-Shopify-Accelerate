@@ -1,5 +1,5 @@
 <template>
-  <SfBanner
+  <div
     :title="title"
     :subtitle="subtitle"
     :description="description"
@@ -8,7 +8,7 @@
     :image="image"
     :background="background"
   >
-  </SfBanner>
+  </div>
 </template>
 
 <script>
@@ -16,14 +16,14 @@ import { SfBanner } from '@storefront-ui/vue'
 export default {
   name: 'Banner',
   components: {
-    SfBanner
+    //SfBanner
   },
   props: {
     title: {},
     subtitle: {},
     description: {},
-    banner_text: {},
-    banner_link: {},
+    button_text: {},
+    button_link: {},
     image: {},
     background: {},
   },

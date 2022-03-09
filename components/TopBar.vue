@@ -1,22 +1,11 @@
 <template>
-  <SfTopBar class="topbar">
-    <template #left>
-      <!-- <SfButton class="sf-button--text">{{ $t("Help & FAQs") }}</SfButton> -->
-    </template>
+  <SfTopBar :announcementText="announcementText">
     <template #center>
-      <p>
-        {{
-          $t(
-            "Take an EXTRA 20% Off Sale Items with Code ACCELERATE for Savings of Up to 70%! Limited time only."
-          )
-        }}
-      </p>
-      <SfButton class="topbar__button sf-button--text">{{
-        $t("Find out more")
-      }}</SfButton>
+      <!-- {{ $t(announcementText) }} For Text translation -->
+      {{ announcementText }}
     </template>
     <template #right>
-      <LocaleSelector />
+      <!-- <LocaleSelector /> -->
     </template>
   </SfTopBar>
 </template>
@@ -26,10 +15,15 @@ import { SfButton, SfTopBar } from "@storefront-ui/vue";
 import LocaleSelector from "./LocaleSelector";
 
 export default {
+  name: "TopBar",
   components: {
     SfTopBar,
     SfButton,
     LocaleSelector,
+  },
+
+  props: {
+    announcementText: String,
   },
 };
 </script>

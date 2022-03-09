@@ -82,6 +82,7 @@ export default {
     top: 100%;
     margin-top: 4px;
     min-width: 60px;
+    z-index: 1;
     text-align: center;
 
     .sf-list__item {

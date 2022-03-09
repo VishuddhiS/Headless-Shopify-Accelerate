@@ -1,7 +1,16 @@
 <template>
   <div>
     <LazyHydrate when-visible>
-      <TopBar class="desktop-only" />
+      <!-- <div
+        v-for="announcement in announcements"
+        :key="announcement.fields.announcementText"
+      >
+        <TopBar
+          :announcementText="announcement.fields.announcementText"
+          class="desktop-only"
+        />
+      </div> -->
+      <TopBar :announcementText="announcements.fields.announcementText" />
     </LazyHydrate>
 
     <AppHeader />
@@ -24,6 +33,7 @@
 </template>
 
 <script>
+import { get } from "lodash";
 import AppHeader from "~/components/AppHeader.vue";
 import BottomNavigation from "~/components/BottomNavigation.vue";
 import AppFooter from "~/components/AppFooter.vue";
@@ -41,6 +51,8 @@ import {
   useUser,
   useWishlist,
 } from "@vue-storefront/shopify";
+
+import { useContent } from "@vsf-enterprise/contentful";
 
 export default {
   name: "DefaultLayout",
@@ -64,12 +76,20 @@ export default {
     const { load: loadCart } = useCart();
     const { load: loadWishlist } = useWishlist();
 
+    const { search, content } = useContent();
+
     onSSR(async () => {
       await Promise.all([loadStores(), loadUser(), loadCart(), loadWishlist()]);
+      await search({ url: "home-page" });
+      console.log(
+        "vishuddhi",
+        get(content, "value.0.fields.announcements", [])
+      );
     });
 
     return {
       route,
+      announcements: get(content, "value.0.fields.announcements", []),
     };
   },
 };

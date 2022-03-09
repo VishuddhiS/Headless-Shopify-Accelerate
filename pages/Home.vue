@@ -1,11 +1,19 @@
 <template>
   <div>
-    <div v-if="loading">Loading content...</div>
+    <!-- <div v-if="loading">Loading content...</div>
     <div v-if="error">Something is wrong!</div>
-
+    <div v-if="bannerContents">
+      <RenderContent :content="bannerContents" />
+    </div> -->
     <div v-for="content in bannerContents" :key="content.button_link">
-      {{ content.fields.title }}
-      <banner :title="content.fields.title" :image="test_image" />
+      <Banner
+        :title="content.fields.title"
+        :description="content.fields.description"
+        :subtitle="content.fields.subtitle"
+        :buttonText="content.fields.buttonText"
+        :link="content.fields.buttonLink"
+        :image="content.fields.image[0].fields.file.url"
+      />
     </div>
   </div>
 </template>
@@ -29,16 +37,62 @@ export default {
     // get data
     onSSR(async () => {
       await search({ url: "home-page" });
-      console.log("vishuddhi", get(content, "value.0.fields.content", []));
+      // console.log(
+      //   "vishuddhi",
+      //   get(content, "value.0.fields.announcements", [])
+      // );
     });
     // return data
     return {
+      content,
       bannerContents: get(content, "value.0.fields.content", []),
       loading,
       error,
-      test_image:
-        "https://images.unsplash.com/photo-1556021003-e17f39b31da4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8d256cEx4czBuUVl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
     };
   },
 };
 </script>
+<style lang="scss">
+.sf-banner {
+  &__wrapper {
+    align-items: var(--banner-align-items, flex-end);
+    --banner-wrapper-width: 38%;
+    > * {
+      color: var(--c-banner-content);
+    }
+  }
+  .sf-button {
+    background: var(--c-primary);
+    margin: 1.5rem 0 0;
+    padding: 0.9rem 1.87rem 1.1rem;
+    font-size: 0.93rem;
+    letter-spacing: 0.1rem;
+    width: auto;
+    font-weight: normal;
+    border-radius: 4px;
+
+    &:hover {
+      background: var(--c-secondary);
+      color: #fff;
+    }
+  }
+
+  .sf-banner__subtitle {
+    font-size: 1.875rem;
+    text-transform: var(--banner-subtitle-text-transform, none);
+  }
+
+  .sf-banner__title {
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0.5rem 0 0;
+  }
+
+  .sf-banner__description {
+    text-transform: var(--banner-subtitle-text-transform, uppercase);
+    font-size: 2.5rem;
+    margin: 0;
+    line-height: 1;
+  }
+}
+</style>
