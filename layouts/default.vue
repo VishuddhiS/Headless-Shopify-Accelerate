@@ -8,7 +8,7 @@
     <!-- </LazyHydrate> -->
 
     <div id="layout">
-      <nuxt :key="route.fullPath" />
+      <Nuxt :key="route.fullPath" />
 
       <LazyHydrate when-visible>
         <BottomNavigation />

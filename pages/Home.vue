@@ -7,18 +7,17 @@
     </div> -->
 
     <!-- Hero Banner Slider -->
-    <!-- <SfHero>
-      <div :v-for="banner in bannerContents">
-        <SfHeroItem
-          :title="banner.fields.title"
-          :key="banner.fields.title"
-          :subtitle="banner.fields.subtitle"
-          :buttonText="banner.fields.buttonText"
-          :link="banner.fields.buttonLink"
-          :image="banner.fields.image[0].fields.file.url"
-        />
-      </div>
-    </SfHero> -->
+    <SfHero>
+      <SfHeroItem
+        v-for="banner in bannerContents"
+        :title="banner.fields.title"
+        :key="banner.fields.title"
+        :subtitle="banner.fields.subtitle"
+        :buttonText="banner.fields.buttonText"
+        :link="banner.fields.buttonLink"
+        :image="banner.fields.image[0].fields.file.url"
+      />
+    </SfHero>
     <!-- Shop By Categories Section -->
     <LazyHydrate when-visible>
       <SfSection :titleHeading="shopByCategories" class="section">

@@ -201,7 +201,7 @@ export default {
       await loadUser();
       await loadCart();
       await loadWishlist();
-      // await search({ url: "home-page" });
+      await search({ slug: "" });
       // console.log("vishuddhi", content.value);
     });
 
