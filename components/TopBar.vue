@@ -23,7 +23,7 @@ export default {
   },
 
   props: {
-    announcementText: String,
+    announcementText: {},
   },
 };
 </script>

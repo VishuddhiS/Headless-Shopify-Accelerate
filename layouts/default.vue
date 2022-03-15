@@ -1,30 +1,24 @@
 <template>
   <div>
-    <LazyHydrate when-visible>
-      <!-- <div
-        v-for="announcement in announcements"
-        :key="announcement.fields.announcementText"
-      >
-        <TopBar
-          :announcementText="announcement.fields.announcementText"
-          class="desktop-only"
-        />
-      </div> -->
+    <!-- <LazyHydrate when-visible>
       <TopBar :announcementText="announcements.fields.announcementText" />
-    </LazyHydrate>
-
+    </LazyHydrate> -->
+    <!-- <LazyHydrate when-idle> -->
     <AppHeader />
+    <!-- </LazyHydrate> -->
 
-    <!-- <div id="layout">
+    <div id="layout">
       <nuxt :key="route.fullPath" />
 
-      <BottomNavigation />
+      <LazyHydrate when-visible>
+        <BottomNavigation />
+      </LazyHydrate>
       <CartSidebar />
       <WishlistSidebar />
       <LoginModal />
       <Notification />
-    </div> -->
-    <Nuxt />
+    </div>
+    <!-- <Nuxt /> -->
 
     <LazyHydrate when-visible>
       <AppFooter />
@@ -33,7 +27,6 @@
 </template>
 
 <script>
-import { get } from "lodash";
 import AppHeader from "~/components/AppHeader.vue";
 import BottomNavigation from "~/components/BottomNavigation.vue";
 import AppFooter from "~/components/AppFooter.vue";
@@ -51,8 +44,6 @@ import {
   useUser,
   useWishlist,
 } from "@vue-storefront/shopify";
-
-import { useContent } from "@vsf-enterprise/contentful";
 
 export default {
   name: "DefaultLayout",
@@ -76,20 +67,12 @@ export default {
     const { load: loadCart } = useCart();
     const { load: loadWishlist } = useWishlist();
 
-    const { search, content } = useContent();
-
     onSSR(async () => {
       await Promise.all([loadStores(), loadUser(), loadCart(), loadWishlist()]);
-      await search({ url: "home-page" });
-      console.log(
-        "vishuddhi",
-        get(content, "value.0.fields.announcements", [])
-      );
     });
 
     return {
       route,
-      announcements: get(content, "value.0.fields.announcements", []),
     };
   },
 };

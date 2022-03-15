@@ -98,6 +98,7 @@
 </template>
 
 <script type="module">
+import { get } from "lodash";
 import {
   SfHeader,
   SfImage,
@@ -111,6 +112,7 @@ import SearchResults from "./SearchResults.vue";
 import debounce from "lodash/debounce";
 import useUiState from "~/composables/useUiState";
 import { onSSR } from "@vue-storefront/core";
+import { useContent } from "@vsf-enterprise/contentful";
 import { computed, ref, useRouter } from "@nuxtjs/composition-api";
 
 import {
@@ -139,6 +141,7 @@ export default {
   },
   // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   setup() {
+    const { content, loading, error } = useContent();
     const { toggleCartSidebar, toggleWishlistSidebar, toggleLoginModal } =
       useUiState();
     const { changeSearchTerm, getFacetsFromURL } = useUiHelpers();
@@ -198,10 +201,12 @@ export default {
       await loadUser();
       await loadCart();
       await loadWishlist();
-      await search({ slug: "" });
+      // await search({ url: "home-page" });
+      // console.log("vishuddhi", content.value);
     });
 
     return {
+      content,
       accountIcon,
       cartTotalItems,
       closeSearch,
@@ -215,6 +220,8 @@ export default {
       searchResults,
       categories,
       isSearchOpen,
+      loading,
+      error,
     };
   },
 };
